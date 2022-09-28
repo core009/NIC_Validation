@@ -1,0 +1,27 @@
+# NIC_Validation
+USER Register
+
+============ What is needed to run the system? ============
+
+1. Apache Netbeans 12.0 IDE
+	*Server : Glassfish 5.1.0
+	*JDK Version : JDK 1.8
+	*Java EE Version : Java EE 8 Web 
+2. MySQL (XAMP Server is Best)
+3. Google Chrome Browser
+4. Network Connection (Internet)
+
+============ How to run the system? ============
+
+Step 01:
+1. Install the Apache Netbeans 12.0 IDE
+2. Set Glashfish 5.1.0 Server as the default server in the Apache Netbeans IDE
+3. Open the Project Folder Throw the Apache Netbeans IDE
+4. Create the Database name call "userdata" and Inside that Database create table call "user"
+	*Table Columns : nic, name, address, nationality, birthdate, gender, age, adddate, adder, updatedate, updater, status. extra1, extra2
+	(*All table columns must be in 'varchar' format only *extra1 and extra2 use for future updrations)
+5. Insert the data in to the table (*Atleast 10 Rows)
+	*Make sure the MySQL server port should run on the localhost:3306 Port
+
+Step 02:
+1. Run the project 
